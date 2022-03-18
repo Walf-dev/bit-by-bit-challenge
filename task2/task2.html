@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Finding HTML Elements by Tag Name</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      p {
+        padding: 20px 100px 20px 100px;
+        font-size: 1.5rem;
+      }
+      a {
+        font-size: 1.5rem;
+      }
+      main {
+        width: 40%;
+        padding: 2%;
+        margin: 5% auto;
+        background: DodgerBlue;
+        text-align: center;
+        border-radius: 5px;
+      }
+      h2 {
+        color: blue;
+      }
+      button {
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>JavaScript HTML DOM</h2>
+
+    <main id="main">
+      <p>Finding HTML Elements by Tag Name</p>
+      <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+
+      <p id="demo"></p>
+
+      <button onclick="button1()">Button1</button>
+      <button onclick="button2()">Button2</button>
+    </main>
+
+    <a href="../task1/task1.html">Go to task 1</a>
+
+    <script src="task2.js"></script>
+  </body>
+</html>
+
+<!-- 
+	HTML:
+    - Add 2 buttons to the html
+    
+    CSS:
+    - make the title blue
+    
+    JS:
+    - When the button 1 is clicked, the "demo" p get the value of the first p of the page
+    - When the button 2 is clicked, the "demo" p get the value of the second p of the page
+-->

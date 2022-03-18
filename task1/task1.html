@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find The Longest Word</title>
+    <meta charset="utf-8" />
+    <style>
+      h1{
+        font-size: 1.8rem;
+      }
+      body{
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      p{
+        padding: 20px 100px 20px 100px;
+        font-size: 1.5rem;
+      }
+      a{
+        font-size: 1.5rem;
+      }
+      main {
+        width: 40%;
+        padding: 2%;
+        margin: 5% auto;
+        background: DodgerBlue;
+        text-align: center;
+        border-radius: 5px;
+      }
+      #in {
+        padding: 10px;
+        width: 150px;
+        background: whitesmoke;
+        margin: auto;
+      }
+
+      button {
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Find Longest Word</h1>
+    <p>Given a sentence with multiple lowercase words separated by spaces, write a Javascript code that finds the longest word in the sentence. 
+      If there are multiple words of the same length, choose one that has the highest number of vowels. Ignore any character in the sentence that is not a letter or a space. Find the most efficient way to achieve this.
+    </p>
+    <main>
+      <h1 id="out">Output here</h1>
+      <input type="text" id="in" /><br />
+      <button onclick="longestStringReduce()">Find Longest Word</button>
+      <button onclick="MyClear()">Clear</button>
+    </main>
+    <a href="../task2/task2.html">Go to task 2</a>
+    <script src="task1.js"></script>
+  </body>
+</html>
